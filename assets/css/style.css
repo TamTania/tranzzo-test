@@ -480,7 +480,7 @@ section {
 
 
 .flip-card {
-  background-color: transparent;
+  background-color: #ffffff;
   min-height: 150px;
   perspective: 1000px;
   margin-bottom: 20px;

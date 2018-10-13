@@ -131,7 +131,13 @@
 }
 
 @media(max-width: 767px) {
- 
+  .flip-card-back {
+    display: none;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: none;
+  }
   /* Main Navigation */
   #mainnav.navbar-default .navbar-collapse, 
   #mainnav.navbar-default .navbar-form {
